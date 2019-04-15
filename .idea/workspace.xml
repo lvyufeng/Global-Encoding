@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2af6c908-e655-47f0-b3cd-d85e538f27bc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/RELEASE-NOTE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/ROUGE-1.5.5.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/docs/ACL2004.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/docs/COLING2004.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/docs/NAACL2003.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/docs/NTCIR4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/docs/ROUGE-Note-v1.4.2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/docs/WAS2004.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/runROUGE-test.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-output/DUC2002-BE-F.in.26.lst.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-output/DUC2002-BE-F.in.26.simple.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-output/DUC2002-BE-L.in.26.lst.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-output/DUC2002-BE-L.in.26.simple.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-output/DUC2002-ROUGE.in.26.spl.lst.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-output/DUC2002-ROUGE.in.26.spl.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-output/ROUGE-test-c95-2-1-U-r1000-n4-w1.2-a-m-s.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-output/ROUGE-test-c95-2-1-U-r1000-n4-w1.2-a-m.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-output/ROUGE-test-c95-2-1-U-r1000-n4-w1.2-a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-output/ROUGE-test-c95-2-1-U-r1000-n4-w1.2-b75-a-m-s.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-output/ROUGE-test-c95-2-1-U-r1000-n4-w1.2-b75-a-m.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-output/ROUGE-test-c95-2-1-U-r1000-n4-w1.2-b75-a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-output/ROUGE-test-c95-2-1-U-r1000-n4-w1.2-l10-a-m-s.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-output/ROUGE-test-c95-2-1-U-r1000-n4-w1.2-l10-a-m.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-output/ROUGE-test-c95-2-1-U-r1000-n4-w1.2-l10-a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-output/verify-c95-2-1-U-r1000-n4-w1.2-b75-a-m-s.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-output/verify-spl-c95-2-1-U-r1000-n4-w1.2-b75-a-m-s.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002-BE-F.in.26.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002-BE-F.in.26.simple.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002-BE-L.in.26.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002-BE-L.in.26.simple.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002-ROUGE.in.26.spl.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002-ROUGE.in.26.spl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D061.M.100.J.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D061.M.100.J.I.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D062.M.100.J.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D062.M.100.J.A.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D063.M.100.J.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D063.M.100.J.E.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D064.M.100.J.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D064.M.100.J.B.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D065.M.100.J.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D065.M.100.J.F.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D066.M.100.J.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D066.M.100.J.I.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D067.M.100.F.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D067.M.100.F.I.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D068.M.100.F.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D068.M.100.F.A.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D069.M.100.F.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D069.M.100.F.C.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D070.M.100.F.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D070.M.100.F.D.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D071.M.100.F.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D071.M.100.F.D.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D072.M.100.F.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D072.M.100.F.J.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D073.M.100.B.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D073.M.100.B.J.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D074.M.100.B.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D074.M.100.B.A.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D075.M.100.B.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D075.M.100.B.E.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D076.M.100.B.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D076.M.100.B.E.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D077.M.100.B.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D077.M.100.B.H.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D078.M.100.B.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D078.M.100.B.J.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D079.M.100.A.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D079.M.100.A.I.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D080.M.100.A.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D080.M.100.A.E.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D081.M.100.A.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D081.M.100.A.D.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D082.M.100.A.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D082.M.100.A.C.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D083.M.100.A.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D083.M.100.A.G.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D084.M.100.A.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D084.M.100.A.H.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D085.M.100.D.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D085.M.100.D.H.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D086.M.100.D.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D086.M.100.D.B.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D087.M.100.D.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D087.M.100.D.B.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D089.M.100.D.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D089.M.100.D.G.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D090.M.100.D.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D090.M.100.D.J.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D091.M.100.C.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D091.M.100.C.F.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D092.M.100.C.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D092.M.100.C.A.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D093.M.100.C.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D093.M.100.C.H.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D094.M.100.C.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D094.M.100.C.D.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D095.M.100.C.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D095.M.100.C.H.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D096.M.100.C.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D096.M.100.C.G.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D097.M.100.E.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D097.M.100.E.J.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D098.M.100.E.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D098.M.100.E.A.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D099.M.100.E.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D099.M.100.E.D.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D100.M.100.E.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D100.M.100.E.F.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D101.M.100.E.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D101.M.100.E.G.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D102.M.100.E.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D102.M.100.E.D.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D103.M.100.G.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D103.M.100.G.A.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D104.M.100.G.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D104.M.100.G.C.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D105.M.100.G.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D105.M.100.G.C.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D106.M.100.G.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D106.M.100.G.F.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D107.M.100.G.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D107.M.100.G.H.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D108.M.100.G.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D108.M.100.G.I.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D109.M.100.H.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D109.M.100.H.B.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D110.M.100.H.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D110.M.100.H.C.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D111.M.100.H.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D111.M.100.H.C.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D112.M.100.H.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D112.M.100.H.E.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D113.M.100.H.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D113.M.100.H.I.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D114.M.100.H.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D114.M.100.H.F.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D115.M.100.I.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D115.M.100.I.B.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D116.M.100.I.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D116.M.100.I.B.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D117.M.100.I.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D117.M.100.I.G.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D118.M.100.I.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D118.M.100.I.E.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D119.M.100.I.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D119.M.100.I.F.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D120.M.100.I.26.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-F/D120.M.100.I.J.mini.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D061.M.100.J.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D061.M.100.J.I.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D062.M.100.J.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D062.M.100.J.A.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D063.M.100.J.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D063.M.100.J.E.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D064.M.100.J.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D064.M.100.J.B.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D065.M.100.J.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D065.M.100.J.F.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D066.M.100.J.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D066.M.100.J.I.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D067.M.100.F.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D067.M.100.F.I.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D068.M.100.F.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D068.M.100.F.A.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D069.M.100.F.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D069.M.100.F.C.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D070.M.100.F.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D070.M.100.F.D.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D071.M.100.F.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D071.M.100.F.D.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D072.M.100.F.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D072.M.100.F.J.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D073.M.100.B.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D073.M.100.B.J.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D074.M.100.B.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D074.M.100.B.A.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D075.M.100.B.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D075.M.100.B.E.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D076.M.100.B.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D076.M.100.B.E.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D077.M.100.B.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D077.M.100.B.H.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D078.M.100.B.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D078.M.100.B.J.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D079.M.100.A.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D079.M.100.A.I.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D080.M.100.A.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D080.M.100.A.E.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D081.M.100.A.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D081.M.100.A.D.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D082.M.100.A.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D082.M.100.A.C.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D083.M.100.A.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D083.M.100.A.G.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D084.M.100.A.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D084.M.100.A.H.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D085.M.100.D.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D085.M.100.D.H.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D086.M.100.D.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D086.M.100.D.B.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D087.M.100.D.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D087.M.100.D.B.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D089.M.100.D.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D089.M.100.D.G.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D090.M.100.D.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D090.M.100.D.J.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D091.M.100.C.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D091.M.100.C.F.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D092.M.100.C.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D092.M.100.C.A.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D093.M.100.C.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D093.M.100.C.H.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D094.M.100.C.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D094.M.100.C.D.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D095.M.100.C.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D095.M.100.C.H.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D096.M.100.C.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D096.M.100.C.G.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D097.M.100.E.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D097.M.100.E.J.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D098.M.100.E.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D098.M.100.E.A.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D099.M.100.E.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D099.M.100.E.D.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D100.M.100.E.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D100.M.100.E.F.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D101.M.100.E.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D101.M.100.E.G.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D102.M.100.E.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D102.M.100.E.D.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D103.M.100.G.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D103.M.100.G.A.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D104.M.100.G.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D104.M.100.G.C.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D105.M.100.G.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D105.M.100.G.C.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D106.M.100.G.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D106.M.100.G.F.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D107.M.100.G.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D107.M.100.G.H.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D108.M.100.G.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D108.M.100.G.I.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D109.M.100.H.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D109.M.100.H.B.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D110.M.100.H.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D110.M.100.H.C.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D111.M.100.H.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D111.M.100.H.C.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D112.M.100.H.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D112.M.100.H.E.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D113.M.100.H.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D113.M.100.H.I.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D114.M.100.H.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D114.M.100.H.F.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D115.M.100.I.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D115.M.100.I.B.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D116.M.100.I.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D116.M.100.I.B.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D117.M.100.I.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D117.M.100.I.G.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D118.M.100.I.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D118.M.100.I.E.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D119.M.100.I.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D119.M.100.I.F.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D120.M.100.I.26.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/BE-L/D120.M.100.I.J.be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D061.M.100.J.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D061.M.100.J.I.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D062.M.100.J.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D062.M.100.J.A.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D063.M.100.J.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D063.M.100.J.E.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D064.M.100.J.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D064.M.100.J.B.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D065.M.100.J.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D065.M.100.J.F.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D066.M.100.J.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D066.M.100.J.I.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D067.M.100.F.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D067.M.100.F.I.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D068.M.100.F.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D068.M.100.F.A.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D069.M.100.F.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D069.M.100.F.C.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D070.M.100.F.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D070.M.100.F.D.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D071.M.100.F.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D071.M.100.F.D.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D072.M.100.F.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D072.M.100.F.J.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D073.M.100.B.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D073.M.100.B.J.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D074.M.100.B.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D074.M.100.B.A.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D075.M.100.B.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D075.M.100.B.E.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D076.M.100.B.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D076.M.100.B.E.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D077.M.100.B.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D077.M.100.B.H.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D078.M.100.B.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D078.M.100.B.J.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D079.M.100.A.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D079.M.100.A.I.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D080.M.100.A.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D080.M.100.A.E.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D081.M.100.A.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D081.M.100.A.D.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D082.M.100.A.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D082.M.100.A.C.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D083.M.100.A.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D083.M.100.A.G.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D084.M.100.A.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D084.M.100.A.H.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D085.M.100.D.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D085.M.100.D.H.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D086.M.100.D.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D086.M.100.D.B.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D087.M.100.D.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D087.M.100.D.B.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D089.M.100.D.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D089.M.100.D.G.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D090.M.100.D.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D090.M.100.D.J.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D091.M.100.C.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D091.M.100.C.F.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D092.M.100.C.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D092.M.100.C.A.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D093.M.100.C.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D093.M.100.C.H.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D094.M.100.C.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D094.M.100.C.D.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D095.M.100.C.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D095.M.100.C.H.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D096.M.100.C.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D096.M.100.C.G.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D097.M.100.E.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D097.M.100.E.J.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D098.M.100.E.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D098.M.100.E.A.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D099.M.100.E.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D099.M.100.E.D.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D100.M.100.E.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D100.M.100.E.F.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D101.M.100.E.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D101.M.100.E.G.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D102.M.100.E.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D102.M.100.E.D.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D103.M.100.G.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D103.M.100.G.A.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D104.M.100.G.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D104.M.100.G.C.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D105.M.100.G.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D105.M.100.G.C.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D106.M.100.G.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D106.M.100.G.F.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D107.M.100.G.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D107.M.100.G.H.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D108.M.100.G.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D108.M.100.G.I.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D109.M.100.H.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D109.M.100.H.B.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D110.M.100.H.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D110.M.100.H.C.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D111.M.100.H.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D111.M.100.H.C.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D112.M.100.H.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D112.M.100.H.E.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D113.M.100.H.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D113.M.100.H.I.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D114.M.100.H.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D114.M.100.H.F.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D115.M.100.I.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D115.M.100.I.B.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D116.M.100.I.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D116.M.100.I.B.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D117.M.100.I.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D117.M.100.I.G.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D118.M.100.I.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D118.M.100.I.E.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D119.M.100.I.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D119.M.100.I.F.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D120.M.100.I.26.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/DUC2002/docs-spl/D120.M.100.I.J.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/ROUGE-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.A.SL062003-25.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.B.SL062003-25.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.C.SL062003-25.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/models/SL.P.10.R.D.SL062003-25.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.11.SL062003-25.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.12.SL062003-25.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.13.SL062003-25.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.14.SL062003-25.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.21.SL062003-25.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.22.SL062003-25.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.23.SL062003-25.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/SL2003/systems/SL.P.10.R.24.SL062003-25.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.M.100.A.C.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.M.100.A.D.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.M.100.A.E.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.M.100.A.F.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.M.100.A.G.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.P.10.A.C.ISI08012003.0001.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.P.10.A.C.ISI08012003.0002.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.P.10.A.C.ISI08012003.0003.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.P.10.A.C.ISI08012003.0004.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.P.10.A.D.ISI08012003.0001.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.P.10.A.D.ISI08012003.0002.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.P.10.A.D.ISI08012003.0003.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.P.10.A.D.ISI08012003.0004.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.P.10.A.E.ISI08012003.0001.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.P.10.A.E.ISI08012003.0002.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.P.10.A.E.ISI08012003.0003.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.P.10.A.E.ISI08012003.0004.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.P.10.A.F.ISI08012003.0001.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.P.10.A.F.ISI08012003.0002.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.P.10.A.F.ISI08012003.0003.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.P.10.A.F.ISI08012003.0004.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.P.10.A.G.ISI08012003.0001.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.P.10.A.G.ISI08012003.0002.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.P.10.A.G.ISI08012003.0003.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00000.P.10.A.G.ISI08012003.0004.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00001.M.100.A.C.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00001.M.100.A.D.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00001.M.100.A.E.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00001.M.100.A.F.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00001.M.100.A.G.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00002.M.100.A.C.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00002.M.100.A.D.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00002.M.100.A.E.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00002.M.100.A.F.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00002.M.100.A.G.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00003.M.100.A.C.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00003.M.100.A.D.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00003.M.100.A.E.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00003.M.100.A.F.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/D00003.M.100.A.G.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify-SPL/mkSPL.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.M.100.A.C.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.M.100.A.D.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.M.100.A.E.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.M.100.A.F.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.M.100.A.G.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.P.10.A.C.ISI08012003.0001.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.P.10.A.C.ISI08012003.0002.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.P.10.A.C.ISI08012003.0003.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.P.10.A.C.ISI08012003.0004.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.P.10.A.D.ISI08012003.0001.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.P.10.A.D.ISI08012003.0002.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.P.10.A.D.ISI08012003.0003.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.P.10.A.D.ISI08012003.0004.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.P.10.A.E.ISI08012003.0001.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.P.10.A.E.ISI08012003.0002.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.P.10.A.E.ISI08012003.0003.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.P.10.A.E.ISI08012003.0004.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.P.10.A.F.ISI08012003.0001.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.P.10.A.F.ISI08012003.0002.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.P.10.A.F.ISI08012003.0003.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.P.10.A.F.ISI08012003.0004.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.P.10.A.G.ISI08012003.0001.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.P.10.A.G.ISI08012003.0002.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.P.10.A.G.ISI08012003.0003.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00000.P.10.A.G.ISI08012003.0004.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00001.M.100.A.C.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00001.M.100.A.D.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00001.M.100.A.E.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00001.M.100.A.F.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00001.M.100.A.G.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00002.M.100.A.C.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00002.M.100.A.D.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00002.M.100.A.E.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00002.M.100.A.F.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00002.M.100.A.G.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00003.M.100.A.C.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00003.M.100.A.D.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00003.M.100.A.E.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00003.M.100.A.F.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/Verify/D00003.M.100.A.G.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/verify-spl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE-1.5.5/sample-test/verify.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extract_lcsts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/giga.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcsts.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lr_scheduler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/beam.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/loss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/optims.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/rnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/seq2seq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/opts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/PythonROUGE.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/ROUGE-1.5.5.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/ROUGE/WordNet-1.6-Exceptions/WordNet-1.6.exc.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/ROUGE/WordNet-1.6-Exceptions/adj.exc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/ROUGE/WordNet-1.6-Exceptions/adv.exc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/ROUGE/WordNet-1.6-Exceptions/buildExeptionDB.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/ROUGE/WordNet-1.6-Exceptions/noun.exc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/ROUGE/WordNet-1.6-Exceptions/verb.exc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/ROUGE/WordNet-1.6.exc.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/ROUGE/WordNet-2.0-Exceptions/WordNet-2.0.exc.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/ROUGE/WordNet-2.0-Exceptions/adj.exc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/ROUGE/WordNet-2.0-Exceptions/adv.exc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/ROUGE/WordNet-2.0-Exceptions/buildExeptionDB.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/ROUGE/WordNet-2.0-Exceptions/noun.exc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/ROUGE/WordNet-2.0-Exceptions/verb.exc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/ROUGE/WordNet-2.0.exc.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/ROUGE/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/ROUGE/smart_common_words.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/multi-bleu.perl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/nonbreaking_prefixes/nonbreaking_prefix.de" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/nonbreaking_prefixes/nonbreaking_prefix.en" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/tokenizer.perl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/data_helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/dict_helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/metrics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/misc_utils.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preprocess.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3169">
+              <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/train.src.id">
+          <provider selected="true" editor-type-id="LargeFileEditor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extract_lcsts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="775">
+              <caret line="156" column="19" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="19" />
+              <folding>
+                <element signature="e#25#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.6/re.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="190" selection-start-line="190" selection-end-line="190" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/venv/lib/python3.6/site-packages/thulac/manage/Postprocesser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lcsts.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="53" selection-start-column="53" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/giga.yaml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/extract_lcsts.py" />
+        <option value="$PROJECT_DIR$/lcsts.yaml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="992" />
+    <option name="y" value="-4" />
+    <option name="width" value="928" />
+    <option name="height" value="1084" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Global-Encoding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Global-Encoding" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="extract_lcsts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Global-Encoding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extract_lcsts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.extract_lcsts" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2af6c908-e655-47f0-b3cd-d85e538f27bc" name="Default Changelist" comment="" />
+      <created>1555303334553</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555303334553</updated>
+      <workItem from="1555303337062" duration="6855000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6855000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14814815" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.420999" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32925585" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39959225" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Global_Encoding$extract_lcsts.coverage" NAME="extract_lcsts Coverage Results" MODIFIED="1555308323221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/utils/misc_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giga.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/venv/lib/python3.6/site-packages/thulac/manage/Postprocesser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="190" selection-start-line="190" selection-end-line="190" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extract_lcsts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="156" column="19" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="19" />
+          <folding>
+            <element signature="e#25#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/tgt.dict">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/train.src.id">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lcsts.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="53" selection-start-column="53" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3169">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
