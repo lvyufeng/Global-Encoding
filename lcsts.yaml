@@ -1,5 +1,5 @@
-data: '/home/linjunyang/data/lcsts/data/'
-logF: 'experiments/lcsts/'
+data: '/home/lv/PycharmProjects/Global-Encoding/data/'
+logF: '/home/lv/PycharmProjects/Global-Encoding/lcsts/'
 epoch: 20
 batch_size: 64
 optim: 'adam'
